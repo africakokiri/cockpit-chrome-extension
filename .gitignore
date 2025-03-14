@@ -9,4 +9,4 @@ node_modules
 next-env.d.ts
 
 # build
-dist
+out
