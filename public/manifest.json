@@ -4,9 +4,10 @@
   "version": "0.1.0",
   "description": "Gemini web helper",
   "action": {
-    "default_popup": "index.html"
+    "default_popup": "index.html",
+    "default_icon": "kokiri.svg"
   },
-  "permissions": ["activeTab", "storage"],
+  "permissions": ["contextMenus", "activeTab", "scripting"],
   "background": {
     "service_worker": "background.js"
   },
