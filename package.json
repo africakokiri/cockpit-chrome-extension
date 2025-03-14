@@ -1,0 +1,32 @@
+{
+  "name": "cockpit",
+  "version": "0.0.1",
+  "description": "Gemini Helper",
+  "main": "./scripts/background.ts",
+  "scripts": {
+    "dev": "bun run next dev",
+    "build": "bun run next build && bun run next export",
+    "start": "bun run next start"
+  },
+  "keywords": [
+    "chrome-extension",
+    "Gemini"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/chrome": "latest",
+    "@types/bun": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  },
+  "engines": {
+    "bun": ">=1.0.0"
+  }
+}

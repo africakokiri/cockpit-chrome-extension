@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Cockpit",
+  "version": "0.0.1",
+  "description": "Gemini Helper",
+  "permissions": ["activeTab", "storage", "contextMenus"],
+  "background": {
+    "service_worker": "../scripts/background.ts"
+  },
+  "action": {
+    "default_popup": "./index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
