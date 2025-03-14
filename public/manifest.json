@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Cockpit",
+  "version": "0.1.0",
+  "description": "Gemini Web Helper",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["activeTab"],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
